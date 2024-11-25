@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            
+            background-color: #333;
+            padding: 1rem;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 0 1rem;
+        }
+        .sidebar {
+            width: 200px;
+            height: 100vh;
+            background-color: #444;
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 2rem;
+        }
+        .sidebar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+        }
+        .main-content {
+            margin-left: 200px;
+            padding: 2rem;
+        }
+        .navbar a:hover{
+
+            background-color: chartreuse;
+        }
+        .sidebar a:hover{
+            background-color: darkcyan;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Dashboard</div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Profile</a>
+            <a href="#">Settings</a>
+        </div>
+    </div>
+    <div class="sidebar">
+        <a href="#">Dashboard</a>
+        <a href="#">student</a>
+        <a href="#">Teacher</a>
+        <a href="#">others</a>
+    </div>
+    <div class="main-content">
+        <h1>Welcome to the hu information Tecknology </h1>
+        <p> Information technology (IT) is a set of related fields that encompass computer systems, software, programming languages, and data and information processing, and storage</p>
+    </div>
+</body>
+</html>
